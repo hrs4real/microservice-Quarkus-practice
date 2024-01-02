@@ -1,0 +1,1 @@
+mvn io.quarkus:quarkus-maven-plugin:create -DprojectGroupId=com.lw.mylibrary -DprojectArtifactId=lwnumber -DclassName="com.lw.mylibrary.NumberResource" -Dpath="/api/number" -Dextension="resteasy-jsonb, smallrye-openapi"
